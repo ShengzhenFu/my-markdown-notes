@@ -99,7 +99,7 @@ path "secret/basic-secret/*" {
 EOF
 vault policy write basic-secret-policy /home/vault/app-policy.hcl
 vault secrets enable -path=secret/ kv
-vault kv put secret/basic-secret/helloworld username=dbuser password=sUp3rS3cUr3P@ssw0rd
+vault kv put secret/basic-secret/helloworld username=dbuser password=dbpassword2024
 ```
 
 ## vault injection example app
