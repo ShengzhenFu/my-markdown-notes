@@ -67,12 +67,12 @@ kubectl -n vault port-forward svc/vault-ui 8443:8200 &
 
 kubectl -n vault exec -it vault-0 -- sh
 vault operator init
-Unseal Key 1: 8ayi36wreA+AEd1udaoN1512U77MI7KVhPsb1TtZsX0n
-Unseal Key 2: C9PO8Tb8tCTzU3psH9256N4p096+DEBBClxoS3guoJyI
-Unseal Key 3: UBIyqTsXcl23LbKMweWPb9kCDhSqT8nkQd31AjeRIqwW
-Unseal Key 4: A0PSr22VnxUnLlCaxjjk4neZN3fHyWrGGm66JN7b2xOp
-Unseal Key 5: 7l2Ods+2InhnEEGURQvB+od95B+IS+ZW46YH+zyPxvz4
-Initial Root Token: s.lRhNykpPVZgTxt933wlCUVAO
+Unseal Key 1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Unseal Key 2: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Unseal Key 3: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Unseal Key 4: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Unseal Key 5: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Initial Root Token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 vault operator unseal
 vault status
